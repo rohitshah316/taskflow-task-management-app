@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/landing/Features';
 import KanbanPreview from './components/kanban-preview';
+import CTA from './components/cta';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Hero/>
     <Features/>
     <KanbanPreview/>
+    <CTA/>
     </>
   )
 }

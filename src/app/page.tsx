@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Features from './components/landing/Features';
 import KanbanPreview from './components/kanban-preview';
 import CTA from './components/cta';
+import Footer from './components/Footer';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
     <Features/>
     <KanbanPreview/>
     <CTA/>
+    <Footer/>
     </>
   )
 }
